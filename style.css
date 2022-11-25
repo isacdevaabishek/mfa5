@@ -1,0 +1,116 @@
+header{
+    background-image: url("images/desktop/image-header.jpg");
+ background-position: center;
+ background-size: cover;
+ margin: 0px;
+ font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+ 
+
+}
+ul{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+li{
+    list-style: none;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Outfit', sans-serif; 
+    margin-left: 60px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 40px; */
+    padding: 40px;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+}
+.creative{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding-bottom: 300px;
+    margin-top: 160px;
+}
+.creative img{
+    width: 50px;
+    margin-top: 30px;
+}
+.content1{
+    display: flex;
+justify-content: space-between;    
+}
+.content1 h1{
+   color: hsl(198, 62%, 26%);
+   font-family: 'Barlow', sans-serif;
+   font-family: 'Fraunces', serif;
+
+}
+.content1 p{
+ color:rgba(163,162,166,255);
+ font-family: 'Lobster Two', cursive;
+   font-family: 'Outfit', sans-serif; 
+}
+a{
+    color:  hsl(198, 62%, 26%);
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+}
+.contentp{
+margin: 160px;
+}
+.content2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.fullp1{
+    position: relative;
+    z-index: 2;
+    bottom: 200px;
+    left: 250px;
+}
+.fullimg{
+    position: relative;
+    z-index: 1;
+}
+.fullp1 p{
+    margin-top: 40px;
+    font-family: 'Lobster Two', cursive;
+   font-family: 'Outfit', sans-serif; 
+   color: rgba(73,138,124,255);
+}
+.fullp1 h1{
+    font-family: 'Barlow', sans-serif;
+   font-family: 'Fraunces', serif;
+color: rgba(32,86,74,255);
+}
+.fullp2{
+    position: relative;
+    z-index: 2;
+    bottom: 200px;
+    left: 250px;
+}
+.fullimg{
+    position: relative;
+    z-index: 1;
+}
+.fullp2 p{
+    margin-top: 40px;
+    font-family: 'Lobster Two', cursive;
+   font-family: 'Outfit', sans-serif; 
+ color:  rgba(15,99,141,255);
+}
+.fullp2 h1{
+    font-family: 'Barlow', sans-serif;
+   font-family: 'Fraunces', serif;
+color: rgba(19,85,117,255);
+}
